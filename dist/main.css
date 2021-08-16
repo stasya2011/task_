@@ -1,0 +1,6 @@
+.test{background-color:aqua;max-width:60%;height:100px;padding:10px;margin:0 auto;margin-top:20px}.test .submit{background-color:#fa028a;border-radius:5px;border-width:0;padding:5px 15px;margin:auto 20px;color:white;text-transform:uppercase}
+
+.item_tag{padding:10px 40px;background-color:#522ed4;color:#fff;display:inline-block;margin:20px 10px;position:relative;border:none;border-radius:10px}.item_tag .delete{position:absolute;top:0;right:0;margin:3px}.item_tag .delete:hover{cursor:pointer}
+
+.field{height:auto;background-color:rgba(200,209,190,0.575);max-width:60%;margin:0 auto;display:flex;flex-direction:column;align-items:center}
+
