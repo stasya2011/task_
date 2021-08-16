@@ -1,0 +1,20 @@
+{
+  //npx babel src --out-dir build  
+  // presets умный понимает что именно необходимо трансформировать под заданные в таргете браузеры
+  "presets": [[
+    
+    "@babel/preset-env", 
+    { 
+      "corejs":3,
+      "useBuiltIns": "usage",
+      "debug": true, // в терминале сможем увтдеть версии которые мы поддерживаем в соответствии с нашим таргетом
+      "modules": false // говорит нам что есди у нас встречается необходимость импортировать какой-то файл мы не будем его трансфоровать
+    }],
+    "@babel/react"
+  ]
+  // "plugins": [
+  //   "@babel/plugin-transform-template-literals",
+  //   "@babel/plugin-transform-classes",
+  //   "@babel/plugin-transform-block-scoping"
+  // ]
+}
